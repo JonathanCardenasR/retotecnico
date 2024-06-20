@@ -44,10 +44,11 @@ Frontend
 - OPCIONAL PLUS: consumir el usuario con el que se autenticó (previamente guardado en la vista del LOGIN) y mostrarlo (Parte superior).
 
 Backend
-- Implementar un nivel de seguridad en la consulta (JWT)
+- Implementar un nivel de seguridad en la consulta (JWT) (todas las rutas de task estan con seguridad)
 - Dockerizar la solución e invocar a la API desde el contenedor
 - Documentar el API con Swagger u Open api
 - Desplegar el API en AWS. (Considerar la infraestructura que mejor se te acomode)
+- El uso de la API debe ser mostrada desde Postman.
 - Utilizar NestJs
 
 
