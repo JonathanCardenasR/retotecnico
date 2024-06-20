@@ -23,5 +23,7 @@ state: boolean
 userId: number
 
 Frontend en s3: http://frontretojonathan.s3-website-us-east-1.amazonaws.com/login
+
 backend en ec2: http://54.226.31.202:3000/
+
 swagger: http://54.226.31.202:3000/api
