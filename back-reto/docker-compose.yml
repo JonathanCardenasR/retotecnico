@@ -1,0 +1,13 @@
+services:
+  server:
+    container_name: back-reto
+    build: .
+    image: back-reto:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - internalnetwork
+
+networks:
+  internalnetwork:
+    driver: bridge
