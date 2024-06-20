@@ -54,5 +54,6 @@ Backend
 Información adicional
 - Se puede crear nuevos usuarios con con la ruta auth/signup que figura en el swagger
 - Las tareas estan vinculadas al usuario en particular que inicia sesion
-- Se coloco 1 minuto de tiempo de vida al JWT 
+- Se coloco 1 minuto de tiempo de vida al JWT
+- La contraseña se guarda encriptada en la base de datos
 
